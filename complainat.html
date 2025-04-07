@@ -9,29 +9,18 @@
 
     <style> 
 
-    .form .forminput{
-
-        width: 90%;
-        margin: auto;
-    }
-    .form .forminput input{
-        width: 80%;
-        padding: 20px 0px;
-    }
-
 @media ( max-width : 768px) {
 
-    body{
-        width: 100vw;
-    }
+body{
+    width: 100vw; margin: auto; 
+}
 .header {  width: 100%; font-size: smaller;
 }
- .header h2{ font-size: smaller; margin-left: 5%; width: 70%; }
+.header h2{ font-size: smaller; margin-left: 5%; width: 70%; }
 
- .header h3 {  font-size: 10px; }
- .header hr { width: 50%; margin: auto;   }
+.header h3 {  font-size: 10px; }
 
-.form{ min-width: 90%; border: 2px solid red;}
+.form{ min-width: 85%; border: 2px solid red;}
 
 
 }
@@ -45,7 +34,8 @@
      class="header">
 
    
-     <div style="object-fit: cover; width: 45%;
+     <div style="object-fit: cover; width: 50%;
+    
     margin: auto;
      
      
@@ -82,13 +72,15 @@
 
 
 
-<div class="forminput">
-<div> <span id="errormessage"> Station: </span> </div>
+
+
+
+<Label>  Station:</Label>
 <input type="text"   
 style="height: 40%;
 border: 1px solid rgb(163, 250, 163);
 border-radius: 5px;
-"></div>
+">
 
 
 <Label>  Name:</Label>
@@ -100,7 +92,7 @@ padding: 1px 5px;">
 
 
 <Label> Date:</Label>
-<input type="textnumber"   
+<input type="date"   
 style="height: 40%;
 border-radius: 5px;
 padding: 1px 5px;

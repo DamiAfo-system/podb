@@ -9,18 +9,22 @@
 
     <style> 
 
-@media( max-width : 768px) {
+@media ( max-width : 768px) {
 
+body{
+    width: 100vw;
+}
 .header {  width: 100%; font-size: smaller;
 }
- .header h2{ font-size: smaller; margin-left: 5%; width: 70%; border: 2px solid red; }
+.header h2{ font-size: smaller; margin-left: 5%; width: 70%; }
 
- .header h3 {  font-size: 10px; }
+.header h3 {  font-size: 10px; }
 
- .form { width: 100%; border: 2px solid red;}
+.form{ min-width: 90%; }
 
 
 }
+
 </style>
 
 </head>
@@ -29,7 +33,6 @@
     <header style="width: 30%;
     margin: auto;"  
      class="header">
-
 
      
      <div style="object-fit: cover; width: 60%;
@@ -48,7 +51,7 @@
 
 
 
-<h3 style="width: 100%; font-size: 15px; margin-left: 15%;"  class="h3">  INDEX TO CASE FILE </h3>
+<h3 style="width: 100%; "  class="h3"> EXTRACT FROM CRIME DIARY </h3>
 
     </header>
 
@@ -58,7 +61,7 @@
     width: 30%;
     margin: auto;
     gap: 5px;
-    height: 40%;">
+    height: 40%;" class="form">
 
 
 
@@ -80,7 +83,7 @@ border-radius: 5px;
 padding: 1px 5px;">
 
 
-<Label> PAGE:</Label>
+<Label> CR/REF:</Label>
 <input type="textnumber"   
 style="height: 40%;
 border-radius: 5px;
